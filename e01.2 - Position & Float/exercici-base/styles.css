@@ -1,0 +1,71 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgrey;
+}
+
+header {
+    position: relative;
+    background-color: #9acd32;
+    /* Por algun motivo este apartado sale
+    con 0px de altura por lo que no aparece y
+    he tenido que ponerselo. */
+    height: 150px;
+    top: 25px;
+}
+
+header img {
+    position: absolute;
+    top: 45px;
+    left: 60px;
+}
+
+ul#menu {
+    position: absolute;
+    list-style-type: none;
+    left: 375px;
+    top: 30px;
+}
+
+ul#menu li {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    /* El display: inline hace que los cuadrados
+    de la lista se separen y se coloquen en
+    horizontal. */
+    display: inline;
+    padding: 6px;
+    margin: 8px;
+}
+
+div {
+    position: relative;
+    border: 2px solid green;
+    top: 90px;
+    left: 60px;
+}
+
+div>h1 {
+    position: absolute;
+    color: white;
+    font-size: 2em;
+    top: 190px;
+    left: 430px;
+}
+
+#model {
+    position: relative;
+    /* El z-index sirve para cuando se superponen
+    elementos, dependiendo del numero que le pongas
+    ira mas arriba. 
+    https://developer.mozilla.org/es/docs/Web/CSS/z-index#:~:text=Related%20topics-,Resumen,cubren%20aquellos%20con%20menor%20valor.
+    */
+    z-index: 1;
+}
+
+#scissors {
+    position: absolute;
+    left: 310px;
+}
