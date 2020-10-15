@@ -104,13 +104,25 @@ CONTAINER C05
     margin: 3px;
 }
 
+
+/********* ADD YOUR CODE  HERE **********/
+
 .c05 {
-    /********* ADD YOUR CODE  HERE **********/
     display: flex;
     justify-content: center;
     align-items: center;
-    /********* END OF YOUR CODE **********/
 }
+
+.c05 div:nth-child(1) {
+    flex-grow: 1;
+}
+
+.c05 div:nth-child(2) {
+    flex-grow: 2;
+}
+
+
+/********* END OF YOUR CODE **********/
 
 
 /**
@@ -130,6 +142,17 @@ CONTAINER C06
 
 
 /********* ADD YOUR CODE  HERE **********/
+
+
+/*
+.c06 div:nth-child(1) {}
+
+.c06 div:nth-child(2) {}
+
+.c06 div:nth-child(3) {}
+
+.c06 div:nth-child(4) {}
+*/
 
 
 /********* END OF YOUR CODE **********/
